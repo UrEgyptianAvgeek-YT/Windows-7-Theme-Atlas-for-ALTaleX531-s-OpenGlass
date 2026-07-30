@@ -1,5 +1,7 @@
 # Windows 7 aero theme for OpenGlass
 
+## Preview: <img width="213" height="94" alt="image" src="https://github.com/user-attachments/assets/9b797758-56d2-4155-b319-46e12f7450be" />
+
 miss the old win7 glass look on windows 10/11? i put together this theme atlas for ALTaleX531's OpenGlass project to bring back the transparent window borders, rounded corners, and glowing buttons.
 
 inside this folder there is the `.png` atlas image and the `.png.layout` file. make sure you keep them in the same folder or openglass won't know how to map the textures.
