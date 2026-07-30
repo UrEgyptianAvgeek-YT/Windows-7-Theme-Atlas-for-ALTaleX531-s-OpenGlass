@@ -1,2 +1,18 @@
-# Windows-7-Theme-Atlas-for-ALTaleX531-s-OpenGlass
-A windows 7 theme atlas that would be used for OpenGlass/Glass8
+# Windows 7 aero theme for OpenGlass
+
+miss the old win7 glass look on windows 10/11? i put together this theme atlas for ALTaleX531's OpenGlass project to bring back the transparent window borders, rounded corners, and glowing buttons.
+
+inside this folder there is the `.png` atlas image and the `.png.layout` file. make sure you keep them in the same folder or openglass won't know how to map the textures.
+
+### Go to releases to download:
+check the releases section on the right side of this page to grab the zipped archive package.
+
+### How to use it:
+1. drop both files somewhere safe on your PC (like `c:\openglass\themes\`).
+2. open `regedit` and go to `HKEY_CURRENT_USER\SOFTWARE\OpenGlass`.
+3. find the string value named `CustomThemeAtlas` (create it if it isn't there).
+4. change its value to the exact path of the png file.
+   * example: `c:\openglass\themes\windows7 theme atlas.png`
+5. restart openglass or hit refresh in the gui and it should change instantly.
+
+Shoutout to ALTaleX531 for making OpenGlass! if the borders look weird or clipped on high scaling setups (like 125% or 150%), just open an issue here and i'll try to fix the layout coordinates.
