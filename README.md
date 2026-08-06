@@ -14,7 +14,8 @@ check the releases section on the right side of this page to grab the zipped arc
 1. drop both files somewhere safe on your PC (like `c:\openglass\themes\`).
 2. open `regedit` and go to `HKEY_CURRENT_USER\SOFTWARE\OpenGlass`.
 3. find the string value named `CustomThemeAtlas` (create it if it isn't there).
-4. change its value to the exact path of the png file.
+4. change its value to the exact path of the png file. (or do this (replace the path to whereever windows7.png is:)) <img width="872" height="81" alt="image" src="https://github.com/user-attachments/assets/2fd6449c-1498-4b09-9bc4-6a8a1a5f348e" />
+
    * example: `c:\openglass\themes\windows7 theme atlas.png`
 5. restart openglass or hit refresh in the gui and it should change instantly.
 
